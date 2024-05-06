@@ -4,7 +4,7 @@ This repository hosts an end-to-end Python project focused on laptops listed on 
 
 1. **Web Scraping:** The project starts with web scraping the dataset of laptops from the Smartprix.com website. Utilizing the BeautifulSoup library, the data is extracted from the HTML structure of the website.
 
-2. **Data Cleaning:** The extracted dataset undergoes thorough data cleaning procedures. This involves handling missing values, generating new features from existing ones, and ensuring data consistency.
+2. **Data Cleaning:** The extracted dataset undergoes thorough data cleaning procedures. This involves handling missing values, generating new features from existing ones, and ensuring data consistency. Certain columns have NaN values, with the rating column having the highest number of NaN values. These missing values are retained for further analysis.
 
 3. **Exploratory Data Analysis (EDA):** EDA is performed to gain insights into the dataset and answer various questions. The analysis covers aspects such as the distribution of warranty periods, preferences for RAM and ROM types among different brands, operating system usage patterns, GPU and CPU combinations associated with higher-priced or higher-rated laptops, the impact of core count on prices and ratings, and more.
 
